@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Something</title>
+    <title>Mementum</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/reset.css" />
   </head>
 
   <body>
-    <div class="js-clock">
-      <h1>00:00</h1>
+    <div class="head_container">
+      <span>Search</span>
+      <span class="js-weather weather_box"></span>
     </div>
-    <form class="js-form form">
-      <input type="text" placeholder="What is your name?" />
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList"></ul>
-    <script src="clock.js"></script>
-    <script src="greeting.js"></script>
-    <script src="todo.js"></script>
-    <script src="bg.js"></script>
-    <script src="weather.js"></script>
+    <div class="main_container">
+      <div class="js-clock clock_face">
+        <h1>00:00</h1>
+      </div>
+      <form class="js-form form">
+        <input
+          type="text"
+          placeholder="What is your name?"
+          class="name_input"
+        />
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      <form class="js-toDoForm">
+        <input
+          type="text"
+          placeholder="Add your To-do List!"
+          class="todo_input"
+        />
+      </form>
+      <ul class="js-toDoList todo_list"></ul>
+    </div>
+    <div></div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
