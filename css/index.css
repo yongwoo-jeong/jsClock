@@ -140,3 +140,12 @@ li {
   color: white;
   animation: fadeIn 0.5s linear;
 }
+
+.quote {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+}
